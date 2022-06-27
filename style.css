@@ -14,7 +14,34 @@ body {
 
 }
 
-.button {
+h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+#button1 {
+    background-color: rgba(224, 224, 224, 1);
+    border-color: transparent;
+    Width: 100px;
+    Height: 40px;
+    border-radius: 14px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+#button2 {
+    background-color: rgba(224, 224, 224, 1);
+    border-color: transparent;
+    Width: 100px;
+    Height: 40px;
+    border-radius: 14px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+#button3 {
     background-color: rgba(224, 224, 224, 1);
     border-color: transparent;
     Width: 100px;
@@ -34,14 +61,13 @@ body {
 
 .layout1>.card {
     width: auto;
-    height: 90px;
+    height: 100px;
     margin-top: 10px;
     margin-right: 64px;
     margin-bottom: 10px;
     margin-left: 64px;
     background: #DA1E5D;
     border-radius: 14px;
-    text-align: center;
 }
 
 
@@ -51,10 +77,19 @@ body {
 .layout2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 
-.card-layout2 {
-    background-color: green;
+.layout2>.card {
+    width: 300px;
+    height: 250px;
+    left: 64px;
+    background: #DA1E5D;
+    margin-top: 20px;
+    margin-right: 64px;
+    margin-bottom: 20px;
+    margin-left: 64px;
+    border-radius: 14px;
 }
 
 /* for layout 3 */
@@ -62,34 +97,50 @@ body {
 .layout3 {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-
 }
 
 .layout3>div {
     text-align: center;
-    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 64px;
+    margin-bottom: 10px;
+    margin-left: 64px;
 }
 
 .layout3>#card1 {
     grid-column: 1/13;
+    background: #DA1E5D;
+    width: auto;
+    height: 90px;
+    text-align: center;
+    border-radius: 14px;
 }
 
 .layout3>#card2 {
-    grid-column: 1/2;
+    grid-column: 1/4;
+    background: #DA1E5D;
+    text-align: center;
+    border-radius: 14px;
 }
 
 .layout3>#card3 {
-    grid-column: 3/11;
-    padding: 50px 20px;
+    grid-column: 4/10;
+    padding: 150px 5px;
+    background: #DA1E5D;
+    border-radius: 14px;
+
 }
 
 .layout3>#card4 {
-    grid-column: 12/13;
-
-
+    grid-column: 10/13;
+    background: #DA1E5D;
+    border-radius: 14px;
 }
 
 .layout3>#card5 {
     grid-column: 1/13;
+    background: #DA1E5D;
+    width: auto;
+    height: 90px;
+    border-radius: 14px;
 }
