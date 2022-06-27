@@ -1,11 +1,13 @@
 const button1 = () => {
-    document.getElementById('container').innerHTML = "Hello layout1";
+    document.getElementById("container").className = 'layout1';
+    document.getElementsByClassName("card").className = "card"
 }
 
 const button2 = () => {
-    document.getElementById('container').innerHTML = "Hello layout2";
+    document.getElementById("container").className = "layout2";
+    document.getElementsByClassName("card").className = "card-layout2"
 }
 
 const button3 = () => {
-    document.getElementById('container').innerHTML = "Hello layout3";
+    document.getElementById('container').className = 'layout3'
 }
